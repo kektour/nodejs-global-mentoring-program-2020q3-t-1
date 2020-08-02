@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-global-mentoring-program-2020q3-t1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hw-1:ex-1": "nodemon --exec babel-node --legacy-watch src/hw1/ex1.js",
+    "hw-1:ex-2": "nodemon --exec babel-node --legacy-watch src/hw1/ex2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kektour/nodejs-global-mentoring-program-2020q3-t-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
